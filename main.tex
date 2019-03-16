@@ -3,6 +3,7 @@
 \usepackage[russian]{babel}
 \usepackage[a4paper, vmargin=2cm, hmargin=1.5cm]{geometry}
 \usepackage{amsmath}
+\usepackage{grffile}
 \usepackage{tikz}
 \usetikzlibrary{shapes, positioning, arrows}
 \tikzstyle{elip}=[ellipse, draw, text width = {width("$S_{111111}$")}, align = center]
@@ -15,7 +16,7 @@
 
 \usepackage{graphicx}
 \graphicspath{{Paints/}}
-\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\DeclareGraphicsExtensions{.pdf,.PNG,.jpg}
 
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 
@@ -157,25 +158,13 @@ S & 1 & 2 & 3 & 4 & 5 & 6 & \\
 b = $\alpha$ + $\beta$ = 28
 
 \begin{flushleft}
-\begin{tabular}{c||rrrrrr||c}
-S & 1 & 2 & 3 & 4 & 5 & 6 & \\
-\hline
-\hline
-1 & $\infty$ & 0 & 0 & 2 & 4 & 0 & \\
-2 & 0 & $\infty$ & 1 & 1 & 3 & 1 & \\
-3 & 0 & 1 & $\infty$ & 3 & 3 & 1 & \\
-4 & 1 & 0 & 2 & $\infty$ & 0 & 2 & \\
-5 & 3 & 2 & 2 & 0 & $\infty$ & 4 & \\
-6 & 0 & 1 & 1 & 3 & 5 & $\infty$ & \\
-\hline
-\hline
- &  &  &  &  & & & \\
-\end{tabular}
+ 
+\includegraphics[width=3cm, height=2cm]{pictures/picture_15.jpg}\\
 \end{flushleft}
-
-\includegraphics{picture_15}\\
+\vspace{4cm}
 
 Определим дугу ветвления для разбиения множества $S$
+\vspace{1cm}
 
 \begin{flushleft}
 \begin{tabular}{c||rrrrrr||c}
@@ -261,9 +250,12 @@ $S_1$ & 1 & 2 & 3 & 4 & 5 & \\
 \end{flushleft}
 
 $b_1$ = b + 3 = 31\\
+\begin{flushleft}
+ 
+\includegraphics[width = 5.5cm, height = 4.3cm]{pictures/picture_14.jpg}
+\end{flushleft}
 
-\includegraphics{picture_14}
-
+\vspace{4cm}
 Определим дугу ветвления для разбиения множества $S_1$
 
 \begin{flushleft}
@@ -347,9 +339,11 @@ $S_{11}$ & 2 & 3 & 4 & 5 & \\
 $b_{11}$ = $b_1$ + 1= 32\\
 
 %\includegraphics{123123}
-
-\includegraphics{picture_13}
-
+\begin{flushleft}
+ 
+\includegraphics[width = 6cm, height = 5.5cm]{pictures/picture_13.jpg}
+\end{flushleft}
+\vspace{6cm}
 Определим дугу ветвления для разбиения множества $S_0$\\
 
 \begin{flushleft}
@@ -422,10 +416,15 @@ $S_{01}$ & 1 &2 & 3 & 4 & 6 & \\
 \end{flushleft}
 
 $b_{01}$ = $b_0$  = 31\\
-
-\includegraphics{picture_12}\\
-
+\begin{flushleft}
+ 
+\includegraphics[width = 7cm, height = 6cm]{pictures/picture_12.jpg}\\
+\end{flushleft}
+\hspace{6cm}
+\begin{flushleft}
+ 
 Определим дугу ветвления для разбиения множества $S_{01}$\\
+\end{flushleft}
 
 \begin{flushleft}
  \begin{tabular}{c||rrrrr||c}
@@ -506,10 +505,15 @@ $S_{011}$  &2 & 3 & 4 & 6 & \\
 \end{flushleft}
 
 $b_{011}$ = $b_{01}$ + 1 = 32\\
-
-\includegraphics{picture_11}\\
-
+\begin{flushleft}
+ 
+\includegraphics[width = 8cm, height = 7cm]{pictures/picture_11.jpg}\\
+\end{flushleft}
+\vspace{3cm}
+\begin{flushleft}
+ 
 Определим дугу ветвления для разбиения множества $S_{11}$\\
+\end{flushleft}
 
 \begin{flushleft}
 \begin{tabular}{c||rrrr||c}
@@ -574,9 +578,15 @@ $b_{0110}$ = $b_{11}$ + 1 = 32\\
 
 $b_{0111}$ = $b_{011}$ = 32\\
 
-\includegraphics{picture_10}\\
-
+\begin{flushleft}
+ 
+\includegraphics[width = 9cm, height = 8cm]{pictures/picture_10.jpg}\\
+\end{flushleft}
+\vspace{3cm}
+\begin{flushleft}
+ 
 Определим дугу ветвления для разбиения множества $S_{111}$\\
+\end{flushleft}
 
 \begin{flushleft}
 \begin{tabular}{c||rrr||c}
@@ -638,10 +648,15 @@ $b_{1110}$ = $b_{111}$ + 2 = 34\\
 $b_{1111}$ = $b_{111}$ = 32\\
 
 v = (1, 3, 5, 4, 2, 6, 1), $f(v)$ = $b_{1111}$  = 32\\
-
-\includegraphics{picture_09}\\
-
+\begin{flushleft}
+ 
+\includegraphics[width = 11cm, height = 10cm]{pictures/picture_09.jpg}\\
+\end{flushleft}
+\vspace{3cm}
+\begin{flushleft}
+ 
 Определим дугу ветвления для разбиения множества $S_{10}$\\
+\end{flushleft}
 
 \begin{flushleft}
 \begin{tabular}{c||rrrrr||c}
@@ -709,12 +724,15 @@ $S_{101}$ & 1 & 2 & 3 & 5 &  \\
 \end{flushleft}
 
 $b_{101}$ = $b_{10}$= 32\\
-
-\includegraphics{picture_08}\\
-
-
-
+\begin{flushleft}
+ 
+\includegraphics[width = 12cm, height = 10cm]{pictures/picture_08.jpg}\\
+\end{flushleft}
+\vspace{3cm}
+\begin{flushleft}
+ 
 Определим дугу ветвления для разбиения множества $S_{101}$\\
+\end{flushleft}
 
 \begin{flushleft}
 \begin{tabular}{c||rrrr||c}
@@ -778,12 +796,15 @@ $S_{1011}$ & 1 & 2  & 5 &  \\
 \end{flushleft}
 
 $b_{1011}$ = $b_{101}$= 32\\
-
-\includegraphics{picture_07}\\ 
-
-
-% 1 point
+\begin{flushleft}
+ 
+\includegraphics[width = 13cm, height = 10cm]{pictures/picture_07.jpg}\\
+\end{flushleft}
+\vspace{3cm}
+\begin{flushleft}
+ 
 Определим дугу ветвления для разбиения множества $S_{1011}$\\
+\end{flushleft}
 
 \begin{flushleft}
 \begin{tabular}{c||rrr||c}
@@ -845,11 +866,15 @@ $S_{10111}$ & 1   & 5 &  \\
 $b_{10111}$ = $b_{1011}$ = 32\\
 
 v = (1, 6, 3, 5, 4, 2, 1), $f(v)$ = $b_{10111}$  = 32\\
-\includegraphics{picture_06}\\ 
-
-% 2 point copy хыыы
-
+\begin{flushleft}
+ 
+\includegraphics[width = 13cm, height = 10cm]{pictures/picture_06.jpg}\\
+\end{flushleft}
+\vspace{3cm}
+\begin{flushleft}
+ 
 Определим дугу ветвления для разбиения множества $S_{011}$\\
+\end{flushleft}
 
 \begin{flushleft}
 \begin{tabular}{c||rrrr||c}
@@ -914,13 +939,15 @@ $S_{0111}$  &2 & 3 &  6 & \\
 $b_{0111}$ = $b_{011}$ = 32\\
 
 v = (1, 3, 4, 5, 2, 6, 1), $f(v)$ = $b_{001111}$  = 20\\
-
-\includegraphics{picture_05}\\ 
-
-
-% Похнали копи и S11
-
+\begin{flushleft}
+ 
+\includegraphics[width = 13cm, height = 10cm]{pictures/picture_05.jpg}\\
+\end{flushleft}
+\vspace{3cm}
+\begin{flushleft}
+ 
 Определим дугу ветвления для разбиения множества $S_{0111}$\\
+\end{flushleft}
 
 \begin{flushleft}
 \begin{tabular}{c||rrr||c}
@@ -984,12 +1011,15 @@ $b_{01111}$ = $b_{0111}$  = 32\\
 
 v = (1, 2, 4, 5, 3, 6, 1), $f(v)$ = $b_{01111}$  = 32\\
 
-\includegraphics{picture_04}\\ 
-
-
-% Похнали копи и S111
-
+\begin{flushleft}
+ 
+\includegraphics[width = 15cm, height = 10cm]{pictures/picture_04.jpg}\\
+\end{flushleft}
+\vspace{3cm}
+\begin{flushleft}
+ 
 Определим дугу ветвления для разбиения множества $S_{010}$\\
+\end{flushleft}
 
 \begin{flushleft}
  \begin{tabular}{c||rrrrr||c}
@@ -1059,14 +1089,15 @@ $S_{0101}$ & 1 &2 & 3  & 6 & \\
 $b_{0101}$ = $b_{010}$ = 32\\
 
 v = (1, 6, 3, 4, 5, 2, 1), $f(v)$ = $b_{1111}$  = 20\\
-
-\includegraphics{picture_03}\\\\\\\\\\
-
-
-
-% Похнали копи и S10
-
+\begin{flushleft}
+ 
+\includegraphics[width = 14cm, height = 9.5cm]{pictures/picture_03.jpg}\\
+\end{flushleft}
+\vspace{3cm}
+\begin{flushleft}
+ 
 Определим дугу ветвления для разбиения множества $S_{0101}$\\
+\end{flushleft}
 
 \begin{flushleft}
  \begin{tabular}{c||rrrr||c}
@@ -1131,12 +1162,15 @@ $S_{01011}$  &2 & 3  & 6 & \\
 
 $b_{01011}$ = $b_{0101}$ = 32\\
 
-\includegraphics{picture_02}\\ 
-
-
-% Похнали копи и S101
-
+\begin{flushleft}
+ 
+\includegraphics[width = 15cm, height = 10cm]{pictures/picture_02.jpg}\\
+\end{flushleft}
+\vspace{3cm}
+\begin{flushleft}
+ 
 Определим дугу ветвления для разбиения множества $S_{01011}$\\
+\end{flushleft}
 
 \begin{flushleft}
  \begin{tabular}{c||rrr||c}
@@ -1200,8 +1234,12 @@ $b_{010111}$ = $b_{01011}$  = 32\\
 
 
 v = (1, 6, 2, 4, 5, 3, 1), $f(v)$ = $b_{010111}$  = 32\\
+\begin{flushleft}
+ 
+\includegraphics[width = 15cm, height = 10cm]{pictures/picture_01.jpg}\\
+\end{flushleft}
+\vspace{3cm}
 
-\includegraphics{picture_01} 
 
 	\noindent
 	\textbf{Ответ:} множество кодов всех оптимальных гамильтоновых 
